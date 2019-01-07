@@ -1,0 +1,36 @@
+.mediacontent {
+  flex: 1;
+  text-align: left; 
+}
+
+.mediamenuitem {
+  align-items: flex-start;
+  text-align: left; 
+  border-top: 1px dotted #ccc;
+  padding: 5px 0;
+}
+  @media screen and (min-width: 769px) {
+    .media {
+      display: flex; }
+  }
+
+.desc {
+  line-height: 1.4;
+}
+
+.name {
+  display: inline-block;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.price {
+  display: inline-block;
+  margin: 0px;
+  font-family: "Stint Ultra Expanded", sans-serif;
+  text-align:right;
+  padding-right:2em;
+  float:right;
+}
