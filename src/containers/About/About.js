@@ -10,7 +10,7 @@ class About extends Component {
 		
 		return (
 			<div>
-				About Page
+				<center>About Page</center>
 			</div>
 		);
 	}

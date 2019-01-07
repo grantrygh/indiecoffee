@@ -14,9 +14,10 @@
     width: 90%;
     height: 3px;
     background-color: white;
+    margin-top: 10px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1023px) {
     .DrawerToggle {
         display: none;
     }

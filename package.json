@@ -113,5 +113,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
   }
 }

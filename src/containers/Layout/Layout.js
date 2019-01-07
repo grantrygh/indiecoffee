@@ -21,16 +21,19 @@ class Layout extends Component {
 
 	render () {
 		return (
-			<React.Fragment>
-				<NavBar showMenu={this.toggleMenuHandler} />
-				<SideDrawer 
-					closed={this.sideDrawerClosedHandler} 
-					open={this.state.showSideDrawer} />
-				<main className={classes.Content}>
-					{this.props.children}
-				</main>
+			<div className={classes.Site}>
+				
+					<NavBar showMenu={this.toggleMenuHandler} />
+					<SideDrawer 
+						closed={this.sideDrawerClosedHandler} 
+						open={this.state.showSideDrawer} />
+				<div className={classes.siteContent}>
+					<main className={classes.Content}>
+						{this.props.children}
+					</main>
+				</div>
 				<Footer />
-			</React.Fragment>
+			</div>
 		)
 	}
 }
