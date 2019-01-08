@@ -4,6 +4,7 @@ import MenuItem from './MenuItem/MenuItem'
 import MenuSelector from './MenuSelector/MenuSelector'
 import MenuSection from './MenuSection/MenuSection'
 import classes from './Menu.css'
+import classestwo from './MenuSelector/MenuSelector.css'
 
 class Menu extends Component {
 
@@ -90,7 +91,7 @@ class Menu extends Component {
 			<React.Fragment>
 			<div className={classes.container}>
 				<section className={classes.selector}>
-					<MenuSelector clicked={(type) => this.foodChangeHandler(type)} />
+					<MenuSelector clicked={(type) => this.foodChangeHandler(type)} selectedType={this.state.selectedType} />
 				</section>
 				
 				<section className={classes.collection}>

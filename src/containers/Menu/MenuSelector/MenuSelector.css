@@ -9,6 +9,10 @@
 
 .menuSelector div {
 	border-bottom: 4px solid transparent;
+	text-decoration: none;
+	color: black;
+	text-decoration: none;
+	outline: 0;
 }
 
 .menuSelector div:hover,
