@@ -1,9 +1,6 @@
 .Footer {
-  padding: 5rem 20% 1.5rem 20%;
-  background: gray(25%);
-  color: gray(60%);
+  padding: 5rem 25% 1.5rem 25%;
   font-size: 0.85em;
-  overflow-x: hidden;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -22,53 +19,9 @@
   text-decoration: underline;
 }
 
-.Footercredits {
-  margin: 0;
-  padding: 0;
-}
-
-.Footercredit {
-  display: block;
-  margin: 0;
-}
-
-.FootercreditSeparator {
-  display: none;
-}
-
-/* If loading the social button fails */
-.Footersocial a,
-.Footersocial iframe {
-  display: inline-block;
-  margin: 0 0 1em;
-  vertical-align: top;
-}
-
-@media (--break-md) {
-  .Footercredit {
-    display: inline-block;
-    margin: 0 0.25em;
-  }
-  .FootercreditSeparator {
-    display: inline-block;
-    padding: 0 0.25em;
-  }
-}
-
-.spaced {
-  padding-left: 20px;
-}
-
-.FooterLinks {
-  display: flex;
-  flex-flow: row;
-}
-
 @media (max-width: 1023px){
   .Footer {
     flex-direction: column;
-  }
-  .FooterSocial {
-    padding-top: 25px;
+    padding: 5rem 15% 1.5rem 15%;
   }
 }

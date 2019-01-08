@@ -1,0 +1,19 @@
+.Footersocial a {
+  display: inline-block;
+  margin: 0 0 1em;
+  vertical-align: top;
+}
+
+.Footersocial h3 {
+  padding-bottom: 10px;
+}
+
+.spaced {
+  padding-left: 20px;
+}
+
+@media (max-width: 1023px){
+  .FooterSocial {
+    padding-top: 25px;
+  }
+}

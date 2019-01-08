@@ -53,6 +53,8 @@ class Menu extends Component {
 			{name:"PBJ", price: "4.66", desc:"Strawberry jam and peanut butter on thick sourdough."},
 		],
 		salads : [
+			// House Favorites
+			{type: "subsection", category: "House Favorites"},
 			{name:"Big Salad", price: "4.66", desc:"Spinach tossed with tomato, walnuts, fire-roasted red and green peppers, caramelized onions, goat cheese, basil and crushed black pepper. Optional: add natural Wisconsin chicken breast."},
 			{name:"Greek Salad", price: "4.66", desc:"Spinach tossed with tomato, black olives, sliced red onion, garbanzo beans, feta cheese, oregano and crushed black pepper. Optional: add natural Wisconsin chicken breast."},
 		],
