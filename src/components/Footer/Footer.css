@@ -1,10 +1,13 @@
 .Footer {
-  padding: 5rem 0rem 1.5rem 0rem;
+  padding: 5rem 20% 1.5rem 20%;
   background: gray(25%);
   color: gray(60%);
   font-size: 0.85em;
   overflow-x: hidden;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .Footer a {
@@ -54,4 +57,18 @@
 
 .spaced {
   padding-left: 20px;
+}
+
+.FooterLinks {
+  display: flex;
+  flex-flow: row;
+}
+
+@media (max-width: 1023px){
+  .Footer {
+    flex-direction: column;
+  }
+  .FooterSocial {
+    padding-top: 25px;
+  }
 }

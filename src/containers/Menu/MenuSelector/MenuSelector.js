@@ -1,12 +1,11 @@
 import React from 'react'
+import classes from './MenuSelector.css'
 
 const menuSelector = (props) => (
-	<div>
-		<ul>
-			<li onClick={() => props.clicked("waffles")}>Waffles</li>
-			<li onClick={() => props.clicked("sandwiches")}>Sandwiches</li>
-			<li onClick={() => props.clicked("salads")}>Salads</li>
-		</ul>
+	<div className={classes.menuSelector}>
+		<div onClick={() => props.clicked("waffles")}>Waffles</div>
+		<div onClick={() => props.clicked("sandwiches")}>Sandwiches</div>
+		<div onClick={() => props.clicked("salads")}>Salads</div>
 	</div>
 )
 

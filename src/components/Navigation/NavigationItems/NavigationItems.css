@@ -13,3 +13,7 @@
 		flex-flow: row;
 	}
 }
+
+.NavigationItemsFooter {
+	flex-flow: row;
+}

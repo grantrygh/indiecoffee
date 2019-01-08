@@ -1,0 +1,27 @@
+.menuSelector {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 2em;
+  font-size: 2em;
+  padding-right: 10rem;
+}
+
+.menuSelector div {
+	border-bottom: 4px solid transparent;
+}
+
+.menuSelector div:hover,
+.menuSelector div:active,
+.menuSelector div.active {
+	cursor: pointer;
+	border-bottom: 4px solid #8F5C2C;
+	color: black;
+}
+
+@media (max-width: 720px) {
+    .menuSelector {
+      flex-direction: column;
+      align-items: center;
+    } 
+}

@@ -1,0 +1,10 @@
+.title {
+  text-transform: capitalize;
+  text-align: center;
+  /*padding-right: 2rem;*/
+  padding: 0.5rem 2rem 1rem 0rem;
+}
+
+.menuSection {
+	width: 100%;
+}
