@@ -2,10 +2,14 @@ import React from 'react'
 import classes from './AboutItem.css'
 
 const aboutItem = (props) => (
-	<div className={classes.aboutItem}>
-		<img class={classes.imageTop} src={props.img} alt="Card image" />
-		<span>{props.title}</span>
-		<p>{props.desc}</p>
+	<div className={classes.aboutItem} style={{ 'background-image': 'url(' + props.img + ')' }}>
+		<sectopm className={classes.aboutBackground} />
+		<div className={classes.flexed}>
+			<div className={classes.aboutTitle}>
+				<h3>{props.title}</h3>
+			</div>
+			<div className={classes.aboutDesc}>{props.desc}</div>
+		</div>
 	</div>
 )
 
