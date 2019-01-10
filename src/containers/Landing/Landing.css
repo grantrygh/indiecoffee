@@ -1,15 +1,43 @@
-body {
-	 /*background-image: url(./assets/images/wooden.jpeg);*/
+.container {
+  margin: 0 auto;
+  max-width: 1250px;
+  color: #000;
+  line-height: 150%;
+}
 
-	  /*background-image: url(../../assets/images/arabica.jpg);*/
+.quotes {
+	margin: 20px 0;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	position: relative;
+	/*z-index: 100;*/
+}
 
-	  /*background-image: url(./assets/images/art-breakfast.jpg);*/
+.galleryBox {
+	max-height: 300px;
+}
 
-	  /*background-image: url(./assets/images/coffee_beans.jpg);*/
+.withVideo {
+	/*background: url(../../assets/images/landingGallery/indie_front.jpg) no-repeat center center fixed; */
+	background-size: cover;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	/*z-index: 101;*/
+}
 
-	  /* <------ */
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
-/*	background-size:     cover;  
-	background-repeat:   no-repeat;
-	background-position: center center; */ 
+.main {
+  position : relative; 
 }

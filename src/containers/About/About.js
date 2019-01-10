@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 // import axios from '../../axios-orders'
+import layoutClasses from '../Layout/Layout.css'
+import AboutItems from './AboutItems/AboutItems'
 
 class About extends Component {
 
@@ -9,8 +11,15 @@ class About extends Component {
 	render() {
 		
 		return (
-			<div>
-				<center>About Page</center>
+			<div className={layoutClasses.container}>
+				<h2>Hang out in a coffee house that honors historic Madison and supports indie music and film.</h2>
+				<h3>
+				We're a little astonished, but national eyes have looked our way the past couple of  years!  
+				</h3>
+				<p>
+				We were featured in Travel + Leisure, Time Magazine, GQ and Wake Up with Al Roker!  But do you know what's really cool?  The local love.  The Daily Cardinal readers picked Indie as the best local coffeeshop two years running.  Hopefully, we're doing things right.  Why don't you stop by and see for yourself?  We'd love to see you!
+				</p>
+				<AboutItems />
 			</div>
 		);
 	}

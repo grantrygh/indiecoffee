@@ -21,3 +21,10 @@
     height: 0;
     visibility: hidden;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  color: #000;
+  line-height: 150%;
+}
