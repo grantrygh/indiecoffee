@@ -35,6 +35,12 @@
 	}
 }
 
+@media (min-width: 480px) {
+	.NavBar {
+		padding: 1rem 18rem 0rem 3rem;
+	}
+}
+
 @media (min-width: 768px) {
 	.NavBar {
 		padding: 2rem 40% 0rem 3rem;

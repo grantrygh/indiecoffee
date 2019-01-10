@@ -7,3 +7,27 @@
 .introduction {
 	text-align: center;
 }
+
+@media (min-width: 320px){
+	.introduction {
+		margin: 0 40px;
+	}
+}
+
+@media (min-width: 480px){
+	.introduction {
+		margin: 0 75px;
+	}
+}
+
+@media (min-width: 800px){
+	.introduction {
+		margin: 0 90px;
+	}
+}
+
+@media (min-width: 960px){
+	.introduction {
+		margin: 0 0;
+	}
+}

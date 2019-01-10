@@ -3,7 +3,7 @@ import classes from './AboutItem.css'
 
 const aboutItem = (props) => (
 	<div className={classes.aboutItem} style={{ 'background-image': 'url(' + props.img + ')' }}>
-		<sectopm className={classes.aboutBackground} />
+		<section className={classes.aboutBackground} />
 		<div className={classes.flexed}>
 			<div className={classes.aboutTitle}>
 				<h3>{props.title}</h3>
