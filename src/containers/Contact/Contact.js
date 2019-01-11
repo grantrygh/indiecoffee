@@ -1,27 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react'
 // import axios from '../../axios-orders'
 import layoutClasses from '../Layout/Layout.css'
 
-class Contact extends Component {
+const contact = () => (
+	<div className={layoutClasses.container}>
+		<p>Phone Number</p>
+		<p>Email</p>
+		<p>Address</p>
 
-	state = {
-	}
+		<p>Contact Form</p>
+	</div>
+);
 
-	render() {
-		
-		return (
-			<div className={layoutClasses.container}>
-				<p>Phone Number</p>
-				<p>Email</p>
-				<p>Address</p>
-
-				<p>Contact Form</p>
-			</div>
-		);
-	}
-}
-
-export default Contact
+export default contact
 
 // let quoteList = [
 // 	{desc: "One of the best coffeeshops in America.", source: "Time Magazine", year: 2015},
