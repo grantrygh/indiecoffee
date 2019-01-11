@@ -1,0 +1,33 @@
+.imageBox {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+}
+
+.topImage {
+	width: 100%;
+	height: 325px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+	transition: 0.3s;
+}
+
+.topImage img {
+	width: 100%;
+	height: 100%;
+}
+
+.bottomImages {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+
+@media (max-width: 600px){
+	.imageBox {
+		width: 90%;
+	}
+	.topImage {
+		height: 250px;
+	}
+}

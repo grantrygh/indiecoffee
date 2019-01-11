@@ -5,7 +5,6 @@ import { waffleList, sandwichList, saladList } from './MenuList/MenuList'
 import MenuSelector from './MenuSelector/MenuSelector'
 import MenuSection from './MenuSection/MenuSection'
 import classes from './Menu.css'
-import classestwo from './MenuSelector/MenuSelector.css'
 
 class Menu extends Component {
 
@@ -20,11 +19,11 @@ class Menu extends Component {
 	foodChangeHandler = (type) => {
 		// Choose what food list to display, based on what is selected
 		let foodType = null;
-		if (type == "waffles")
+		if (type === "waffles")
 			foodType = this.state.waffles
-		else if (type == "sandwiches")
+		else if (type === "sandwiches")
 			foodType = this.state.sandwiches
-		else if (type == "salads")
+		else if (type === "salads")
 			foodType = this.state.salads
 		// Create the food list with subsections and menu items
 		const itemList = [];

@@ -22,6 +22,8 @@
 @media (max-width: 1023px){
   .Footer {
     flex-direction: column;
-    padding: 5rem 15% 1.5rem 15%;
+    align-items: center;
+    justify-content: center;
+    /*padding: 5rem 15% 1.5rem 15%;*/
   }
 }

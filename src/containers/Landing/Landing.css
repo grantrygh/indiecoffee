@@ -1,43 +1,66 @@
 .container {
   margin: 0 auto;
-  max-width: 1250px;
+  max-width: 960px;
   color: #000;
   line-height: 150%;
+  display: flex;
+  margin-top: 50px;
 }
 
-.quotes {
-	margin: 20px 0;
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 20px;
-	position: relative;
-	/*z-index: 100;*/
+.info {
+	width: 320px;
+	min-width: 320px;
+	margin-right: 100px;
 }
 
-.galleryBox {
-	max-height: 300px;
+.info h3, 
+.info p {
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-family: Oswald;
 }
 
-.withVideo {
-	/*background: url(../../assets/images/landingGallery/indie_front.jpg) no-repeat center center fixed; */
-	background-size: cover;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-	/*z-index: 101;*/
+.info h3 {
+	font-weight: bold;
+	padding-bottom: 15px;
+	padding-top: 25px;
 }
 
-.myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+.button1 {
+	display:inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+	padding:0.35em 0.8em;
+	border:0.1em solid black;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	color:black;
+	text-align:center;
+	transition: all 0.2s;
 }
 
-.main {
-  position : relative; 
+.button1:hover {
+	color:#000000;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+@media all and (max-width:30em){
+	.button1 {
+		display: block;
+		margin: 0.4em auto;
+	}
+}
+
+@media (max-width: 1023px){
+	.info {
+		text-align: center;
+		margin-right: 0;
+	}
+	.container {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
 }

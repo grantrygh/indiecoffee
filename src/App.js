@@ -14,7 +14,7 @@ import Jobs from './containers/Jobs/Jobs'
 class App extends Component {
   render() {
     return (
-		    <div>
+		    <React.Fragment>
 			    <Layout>
 			    	<Switch>
 					    <Route path="/" exact component={Landing} />
@@ -26,7 +26,7 @@ class App extends Component {
 				    	<Route path="/jobs" component={Jobs} />
 				    </Switch>
 			    </Layout>
-			</div>
+			</React.Fragment>
     );
   }
 }
