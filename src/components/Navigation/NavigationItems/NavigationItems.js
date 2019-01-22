@@ -11,7 +11,7 @@ const navigationItems = (props) => {
 			{
 				pages.map( page => {
 					let linkedPage = "/" + (page !== "home" ? page : '');
-					return <NavigationItem link={ linkedPage }>{ page }</NavigationItem>
+					return <NavigationItem link={ linkedPage } {...props}>{ page }</NavigationItem>
 				})
 			}
 		</div>

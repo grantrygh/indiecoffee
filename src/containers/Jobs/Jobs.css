@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  color: #000;
+  line-height: 150%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text {
+	width: 300px;
+	padding: 0 50px;
+}
+
+.image {
+	width: 500px;
+	height: 340px;
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+	transition: 0.3s;
+}
+
+.image img {
+	height: 100%;
+	width: 100%;
+}
+
+@media (max-width: 525px) {
+	.image {
+		width: 400px;
+		height: 270px;
+	}
+}
+
+@media (max-width: 425px) {
+	.image {
+		width: 300px;
+		height: 200px;
+	}
+}
