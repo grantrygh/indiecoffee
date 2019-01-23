@@ -19,11 +19,17 @@
   text-decoration: underline;
 }
 
-@media (max-width: 1023px){
+@media (max-width: 600px){
   .Footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /*padding: 5rem 15% 1.5rem 15%;*/
+  }
+}
+
+@media (max-width: 1023px){
+  .Footer {
+    padding: 5rem 60px 1.5rem 60px;
   }
 }
