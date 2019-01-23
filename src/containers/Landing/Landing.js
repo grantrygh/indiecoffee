@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 // import axios from '../../axios-orders'
 import classes from './Landing.css'
+import buttonClasses from '../../components/UI/Button/Button.css'
 import LandingDescription from './LandingDescription/LandingDescription'
 import ImageBox from './ImageBox/ImageBox'
 import TodayHours from '../../components/TodayHours/TodayHours'
@@ -13,7 +14,7 @@ const landing = () => (
 			<div className={classes.info}>
 				<LandingDescription />
 				<h3>Hungry?</h3>
-				<NavLink to="/menu" className={classes.button1}>Explore Our Menu</NavLink>
+				<NavLink to="/menu" className={buttonClasses.button}>Explore Our Menu</NavLink>
 				<TodayHours />
 				<h3>Our Location</h3>
 				<Address />

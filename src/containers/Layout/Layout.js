@@ -23,10 +23,10 @@ class Layout extends Component {
 		return (
 			<div className={classes.Site}>
 				
-					<NavBar showMenu={this.toggleMenuHandler} />
-					<SideDrawer 
-						closed={this.sideDrawerClosedHandler} 
-						open={this.state.showSideDrawer} />
+				<NavBar showMenu={this.toggleMenuHandler} />
+				<SideDrawer 
+					closed={this.sideDrawerClosedHandler} 
+					open={this.state.showSideDrawer} />
 				<div className={classes.siteContent}>
 					<main className={classes.Content}>
 						{this.props.children}

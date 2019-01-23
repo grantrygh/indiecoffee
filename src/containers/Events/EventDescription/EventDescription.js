@@ -24,7 +24,7 @@ const eventDescription = () => (
 		</p>
 
 		<p>
-		Why not check out our next event?  We're not a bar, but we do serve Wisconsin mircobrews and other libations.  And waffles.  Don't forget the waffles.
+		Why not check out our next event?  We're not a bar, but we do serve Wisconsin microbrews and other libations.  And waffles.  Don't forget the waffles.
 		</p>
 	</React.Fragment>
 )
