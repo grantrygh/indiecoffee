@@ -28,3 +28,9 @@
   color: #000;
   line-height: 150%;
 }
+
+@media (max-height: 799px){
+  .Content {
+    padding-top: 140px;
+  }
+}
