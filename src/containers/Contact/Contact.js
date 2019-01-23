@@ -4,12 +4,11 @@ import ContactDescription from './ContactDescription/ContactDescription'
 import TodayHours from '../../components/TodayHours/TodayHours'
 import Address from '../../components/Footer/Address/Address'
 import classes from './Contact.css'
-import landingClasses from '../Landing/Landing.css'
 // import landingClasses from '../Landing/Landing.css'
  
 const contact = () => (
 	<div className={classes.contact}>
-		<div className={landingClasses.info}>
+		<div className={classes.info}>
 			<ContactDescription />
 			<TodayHours />
 			<h3>Our Location</h3>
