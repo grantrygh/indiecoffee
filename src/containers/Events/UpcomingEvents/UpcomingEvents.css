@@ -1,0 +1,10 @@
+.upcomingEvents {
+	display: flex;
+}
+
+@media (max-width: 600px){
+	.upcomingEvents {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
