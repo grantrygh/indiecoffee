@@ -46,13 +46,13 @@ class Menu extends Component {
 		return (
 			<React.Fragment>
 			<div className={classes.container}>
-				<section className={classes.selector}>
+				<div className={classes.selector}>
 					<MenuSelector clicked={(type) => this.foodChangeHandler(type)} selectedType={this.state.selectedType} />
-				</section>
+				</div>
 				
-				<section className={classes.collection}>
+				<div className={classes.collection}>
 					{ this.state.menuItems }
-				</section>
+				</div>
 
 			</div>
 			</React.Fragment>

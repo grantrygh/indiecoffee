@@ -10,15 +10,13 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px; 
+}
+
+.selector {
+  width: 100%;
 }
 
 .title {
   text-transform: capitalize;
-  text-align: center; }
-
-@media (max-width: 720px) {
-    .collection {
-      padding: 15px; 
-    } 
+  text-align: center; 
 }

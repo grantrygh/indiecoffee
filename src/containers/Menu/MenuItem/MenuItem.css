@@ -1,11 +1,15 @@
 .menuItem {
   width: 300px;
-  /*border-top: 1px dotted #ccc;*/
   padding: 1rem 2rem 0rem 2rem;
 }
   @media screen and (min-width: 769px) {
     .menuItem {
-      display: flex; }
+      display: flex; 
+    }
+    .price {
+      margin-right:2em;
+      float:right;
+    }
   }
 
   @media screen and (min-width: 960px){
@@ -35,6 +39,5 @@
 }
 
 .price {
-  margin-right:2em;
   float:right;
 }
