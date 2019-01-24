@@ -10,7 +10,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .selector {
@@ -20,4 +19,10 @@
 .title {
   text-transform: capitalize;
   text-align: center; 
+}
+
+@media (max-width: 725px){
+  .collection {
+    justify-content: center;
+  }
 }
